@@ -5,11 +5,11 @@ const taskList=document.querySelector("#tasks");
 todoForm.addEventListener("submit",function(e) {
     e.preventDefault();
     if(todoInput.value==""){
-        alert("please enter ");
+        alert("please enter your task");
         return;
     }
     const task=document.createElement("li");
-    task.innerText=todoInput.Value;
+    task.innerText=todoInput.value;
     taskList.appendChild(task);
     todoInput.value="";
-})
+});

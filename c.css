@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(220, 239, 50);
+    background-color: #C4DAD2;
 }
 h1{
-    color: white;
+    color: #16423C;
 }
 #todo-list{
    margin-top: 20px;
@@ -29,7 +29,7 @@ h1{
     padding: 8px;
     font-size: 17px;
     color: white;
-    background-color: rgb(183, 220, 220);
+    background-color: #6A9C89;
     border: 1px solid rgb(218, 198, 198);
    
 }
@@ -39,9 +39,10 @@ h1{
     padding-top:10px ;
     padding-bottom:10px ;
     border-radius: 10px;
-    background-color: rgb(88, 98, 179);
+    background-color:#16423C;
     border: 1px solid rgb(218, 198, 198);
     cursor: pointer;
+    color: #C4DAD2;
 }
 li{
     list-style: none;
